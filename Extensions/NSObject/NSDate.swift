@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSDate {
+public extension NSDate {
     
     // MARK: Working with NSDate-s 
     

@@ -87,10 +87,10 @@ Will return size of a file in given path. If file does not exists will return 0.
 
 #### UIColor
 
-**class func colorWithHex(hex: String) -> UIColor?**
+**class func colorWithHex(hex: String) -> UIColor**
 
 This will create UIColor from a hex string. It will work correctly if hex string will contain # prefix or not.
-It will return nil if string could not be converted to UIColor (i.e. when color string is less than 6 symbols length) In a returned UIColor alpha component always will be 1
+It will return UIColor.clearColor() if string could not be converted to UIColor (i.e. when color string is less than 6 symbols length) In a returned UIColor alpha component always will be 1
 
     
     UIColor.colorWithHex("#FFAA66")

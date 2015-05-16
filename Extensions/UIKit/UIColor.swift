@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     
     /**
         This will create UIColor from a hex string. It will work correctly if hex string will contain # prefix or not.
@@ -19,7 +19,7 @@ extension UIColor {
     
         :returns: UIColor from hex string
     */
-    class func colorWithHex(hex: String) -> UIColor? {
+    class func colorWithHex(hex: String) -> UIColor {
         var cString:String = hex.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).uppercaseString
         
         if cString.hasPrefix("#") {
@@ -27,7 +27,7 @@ extension UIColor {
         }
         
         if (count(cString) != 6) {
-            return nil
+            return UIColor.clearColor()
         }
         
         var rString = cString.substringToIndex(advance(cString.startIndex, 2))

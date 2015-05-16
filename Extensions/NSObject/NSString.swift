@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSString {
+public extension NSString {
     
     /** 
         Returns *true* if email is valid. This validation is checking string for matching regexp only. 
