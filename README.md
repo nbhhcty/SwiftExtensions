@@ -1,6 +1,6 @@
 # Swift extensions
 
-![CocoaPods](https://img.shields.io/cocoapods/v/swift-extensions.svg) [![Build Status](https://travis-ci.org/anatoliyv/swift-extensions.svg)](https://travis-ci.org/anatoliyv/swift-extensions)
+![CocoaPods](https://img.shields.io/cocoapods/v/SwiftExtensions.svg)
 
 Useful swift extensions for different classes. Main reason of this repo is that I require it in most of my projects and I decided to share with other developers.
 
