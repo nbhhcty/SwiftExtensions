@@ -123,6 +123,22 @@ Will remove object from an array. If there are more than one the same object in 
 
 Will return *true* if array contains object. Object should conform *Equatable* protocol.
 
+#### String
+
+	func length() -> Int // Returns length of a string
+	func trim() -> String // Returns trimmed string
+	func substring(location: Int, length: Int) -> String! // Returns substring  with `length` of a string from `location`
+	func location(substring: String) -> Int // Returns substring location or NSNotFound
+	func contains(substring: String) -> Bool // Returns `true` if string contains substring
+	func isNumeric() -> Bool // Returns `true` if string is numeric
+	
+**subscript(index: Int) -> String!**
+
+Returns character at index. I.e:
+
+	"abc"[1] == "b"
+	"abs"[-1] == "s"
+
 #### Int
 
 
