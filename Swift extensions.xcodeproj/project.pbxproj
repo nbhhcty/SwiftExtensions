@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181819AF1B3C49CA00CF1C0E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181819AE1B3C49CA00CF1C0E /* String.swift */; };
+		181819B01B3C49CA00CF1C0E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181819AE1B3C49CA00CF1C0E /* String.swift */; };
+		181819B21B3C4ACA00CF1C0E /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181819B11B3C4ACA00CF1C0E /* StringTests.swift */; };
 		1865D9E51AFE7B2200E3D075 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865D9E41AFE7B2200E3D075 /* NSFileManager.swift */; };
 		1865D9E61AFE7B2200E3D075 /* NSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865D9E41AFE7B2200E3D075 /* NSFileManager.swift */; };
 		1865D9EA1AFE7B4C00E3D075 /* NSFileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1865D9E91AFE7B4C00E3D075 /* NSFileManagerTests.swift */; };
@@ -46,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181819AE1B3C49CA00CF1C0E /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		181819B11B3C4ACA00CF1C0E /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		1865D9E41AFE7B2200E3D075 /* NSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManager.swift; sourceTree = "<group>"; };
 		1865D9E91AFE7B4C00E3D075 /* NSFileManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManagerTests.swift; sourceTree = "<group>"; };
 		18D2F0641AFB8B120075366B /* Swift extensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift extensions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +157,7 @@
 			children = (
 				18D2F0B41AFB96ED0075366B /* Array.swift */,
 				18D2F0B51AFB96ED0075366B /* Int.swift */,
+				181819AE1B3C49CA00CF1C0E /* String.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 			children = (
 				18D2F0C61AFB96F50075366B /* ArrayTests.swift */,
 				18D2F0C71AFB96F50075366B /* IntTests.swift */,
+				181819B11B3C4ACA00CF1C0E /* StringTests.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -293,6 +300,7 @@
 			files = (
 				1865D9E51AFE7B2200E3D075 /* NSFileManager.swift in Sources */,
 				18D2F0DA1AFD874D0075366B /* UIView.swift in Sources */,
+				181819AF1B3C49CA00CF1C0E /* String.swift in Sources */,
 				18D2F0D41AFB97020075366B /* UIColor.swift in Sources */,
 				18D2F0B91AFB96ED0075366B /* NSObject.swift in Sources */,
 				18D2F0BD1AFB96ED0075366B /* Array.swift in Sources */,
@@ -312,6 +320,7 @@
 				18D2F0BA1AFB96ED0075366B /* NSObject.swift in Sources */,
 				18D2F0CC1AFB96F50075366B /* NSObjectTests.swift in Sources */,
 				18D2F0CE1AFB96F50075366B /* NSStringTests.swift in Sources */,
+				181819B21B3C4ACA00CF1C0E /* StringTests.swift in Sources */,
 				1865D9EA1AFE7B4C00E3D075 /* NSFileManagerTests.swift in Sources */,
 				18D2F0CA1AFB96F50075366B /* NSDateTests.swift in Sources */,
 				18D2F0BE1AFB96ED0075366B /* Array.swift in Sources */,
@@ -319,6 +328,7 @@
 				18D2F0BC1AFB96ED0075366B /* NSString.swift in Sources */,
 				18D2F0D71AFB97100075366B /* UIColorTests.swift in Sources */,
 				1865D9E61AFE7B2200E3D075 /* NSFileManager.swift in Sources */,
+				181819B01B3C49CA00CF1C0E /* String.swift in Sources */,
 				18D2F0DD1AFD87640075366B /* UIViewTests.swift in Sources */,
 				18D2F0DB1AFD874D0075366B /* UIView.swift in Sources */,
 				18D2F0C01AFB96ED0075366B /* Int.swift in Sources */,

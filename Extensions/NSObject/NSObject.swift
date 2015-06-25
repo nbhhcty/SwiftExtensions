@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSObject {
+public extension NSObject {
     
     /** 
         This will run closure after delay. Invokation will be on main_queue.

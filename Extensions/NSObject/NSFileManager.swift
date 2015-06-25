@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSFileManager {
+public extension NSFileManager {
     
     /**
         Will return size of a file in given path. If file does not exists will return 0.

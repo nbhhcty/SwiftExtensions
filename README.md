@@ -87,10 +87,10 @@ Will return size of a file in given path. If file does not exists will return 0.
 
 #### UIColor
 
-**class func colorWithHex(hex: String) -> UIColor?**
+**class func colorWithHex(hex: String) -> UIColor**
 
 This will create UIColor from a hex string. It will work correctly if hex string will contain # prefix or not.
-It will return nil if string could not be converted to UIColor (i.e. when color string is less than 6 symbols length) In a returned UIColor alpha component always will be 1
+It will return UIColor.clearColor() if string could not be converted to UIColor (i.e. when color string is less than 6 symbols length) In a returned UIColor alpha component always will be 1
 
     
     UIColor.colorWithHex("#FFAA66")
@@ -122,6 +122,22 @@ Will remove object from an array. If there are more than one the same object in 
 **func contains<T where T : Equatable>(object: T) -> Bool**
 
 Will return *true* if array contains object. Object should conform *Equatable* protocol.
+
+#### String
+
+	func length() -> Int // Returns length of a string
+	func trim() -> String // Returns trimmed string
+	func substring(location: Int, length: Int) -> String! // Returns substring  with `length` of a string from `location`
+	func location(substring: String) -> Int // Returns substring location or NSNotFound
+	func contains(substring: String) -> Bool // Returns `true` if string contains substring
+	func isNumeric() -> Bool // Returns `true` if string is numeric
+	
+**subscript(index: Int) -> String!**
+
+Returns character at index. I.e:
+
+	"abc"[1] == "b"
+	"abs"[-1] == "s"
 
 #### Int
 
