@@ -6,6 +6,10 @@ Useful swift extensions for different classes. Main reason of this repo is that 
 
 **Info:** Extentions collection is updating. Please send me messages if you want to add some useful functionality to this repository.
 
+## Installation
+
+Right now the only way to install this repo is to copy it to your project.
+
 ## Foundation framework
 
 #### NSDate
