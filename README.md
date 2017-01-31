@@ -164,5 +164,3 @@ This method will repeat *closure* n times. Possible way of usage:
         println("Hello worlds") 
     }
     
-![IMG](https://bytebucket.org/anatoliy_v/test/raw/6ec2f594d29c55ca33586be0d9c73db6fbfadfc5/test.svg?token=6a9fc94c2a9d32af39c38f85cb1172ae639b5ecc)
-    
